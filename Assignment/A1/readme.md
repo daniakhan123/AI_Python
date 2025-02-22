@@ -6,6 +6,23 @@
 
 # Q1
 
+Turing's 1950 paper on "Computing Machinery and Intelligence" proposed the Turing Test as a measure of machine intelligence. While influential, it faces enduring criticisms.  The "Argument from Consciousness" remains potent, as Turing's behavioral focus doesn't address subjective experience.  The "Argument from Informality of Behaviour," though weakened by AI advancements, still poses a challenge due to the complexity of human behavior.  Turing's refutations, like that of the "Mathematical Objection," are not entirely conclusive.
+
+### 1. Which objections still carry some weight?
+
+  The "Argument from Consciousness" (machines may mimic human behavior without genuine understanding) and the "Argument from Informality of Behaviour" (replicating the full spectrum of human action remains a challenge) still hold weight.
+
+### 2. Are his refutations valid?
+
+   Turing's refutations are not always fully convincing. For example, his response to the "Mathematical Objection" (Gödel's theorem) doesn't fully address the difference between computational systems and human thought.
+
+### 3. Since he wrote the paper, can you think of new objections arising from developments?
+
+   Modern concerns include the "Argument from Deception" (AI's potential for manipulation) and the narrow focus of the Turing Test on human-like conversation, potentially overlooking other forms of intelligence.
+   
+### 4. In the paper, he predicts that by the year 2000, a computer will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator. Do you think this is reasonable?
+
+Turing's prediction of a 30% chance of passing the test by 2000 was slightly optimistic in its timing. While no definitive "pass" occurred, AI's progress in natural language processing makes his estimation of AI's potential reasonable.
 
 
 # Q2
@@ -60,6 +77,18 @@ Challenges:   AI supports tasks like 3D printing and site surveying, but fully a
 
 # Q3
 
+## Agent Description:
+
+An RTS game agent controls units to defeat the enemy, issuing move, attack, and gather commands. It receives sensory input about friendly/enemy unit positions, resources, and game time, making real-time decisions.
+
+## Environment Characterization:
+
+The RTS environment is mostly accessible (fog of war), mostly deterministic (predictable outcomes with slight randomness), episodic (distinct games), dynamic (enemy actions change the world), and continuous (actions happen in real-time).
+
+## Best Agent Architecture:
+
+A hybrid agent is ideal. A reactive component handles fast, low-level unit control (dodging, targeting). A deliberative component makes high-level strategic decisions (attack plans, defense). A learning component improves performance over time (strategy refinement). This combines quick reactions with strategic depth in a dynamic, partially observable, real-time game.
+
 # Q4
  1. An agent that senses only partial information about the state cannot be perfectly rational.
     
@@ -97,6 +126,14 @@ Challenges:   AI supports tasks like 3D printing and site surveying, but fully a
 
 
 # Q5
+
+![Screenshot 2025-02-22 191612](https://github.com/user-attachments/assets/ec7e100f-022e-4047-8667-d90ade30f3d3)
+
+# COMPARISONS
+
+![Screenshot 2025-02-22 192000](https://github.com/user-attachments/assets/3349c836-0fb7-4b2b-8408-ac728ceffc9c)
+
+
 
 
 
